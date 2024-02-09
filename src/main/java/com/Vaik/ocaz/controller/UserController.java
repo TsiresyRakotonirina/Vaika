@@ -17,7 +17,7 @@ import com.Vaik.ocaz.service.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:8100")
 public class UserController {
 
     private final UserService userService;
